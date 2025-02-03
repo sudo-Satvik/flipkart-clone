@@ -1,0 +1,33 @@
+/* Custom pagination styles */
+.pagination-dots .swiper-pagination-bullet {
+    width: 20px;
+    height: 4px;
+    background: #616161;
+    /* Light gray */
+    border-radius: 2px;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.pagination-dots .swiper-pagination-bullet-active {
+    width: 30px;
+    /* Larger active indicator */
+    background: black;
+}
+
+.next-btn, .prev-btn {
+    border-radius: 0;
+    height: 80px;
+}
+
+.next-btn {
+    transform: translateX(10px);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.prev-btn {
+    transform: translateX(-10px);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
